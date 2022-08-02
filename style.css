@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #130F40;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    margin-right: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central {
+    width: 35vw;
+    height: 110vh;
+    margin-left: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.control {
+    width: 100%;
+    display: flex;
+}
+
+.dscr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ref {
+    color: white;
+    margin-top: 35px;
+}
+
+.cont {
+    margin-left: 25px;
+    margin-top: 25px;
+    
+}
+
+.butao {
+    width: 24vw;
+    height: 8vh;
+    color: white;
+    margin-top: 25px;
+    background-color: #F72585;
+    border-radius: 8px;
+    border: #F72585;
+    cursor: pointer;
+    
+}
+
+.fotos {
+    width: 30%; 
+    margin-left: 45px;  
+}
+
+.fotos-2 {
+    width: 30%; 
+    margin-right: 95px;  
+    margin-top: 35px;
+}
+
+.imagens {
+    width: 180px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.imagens-2 {
+    width: 160px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-right: 55px;
+}
