@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #292B61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.janela {
+    width: 802px;
+    height: 440px;
+    background-color: #130F40;
+    display: flex;
+}
+
+.porta {
+    width: 360px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 340px;
+    height: 340px;
+    margin-left: 26px;
+}
+
+.iniciar {
+    margin-left: 55px;
+    width: 50%;
+}
+
+.login {
+    width: 360px;
+    height: 236px;
+    margin-top: 93px;
+    margin-left: 90px;
+    color: #DE227D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iniciar {
+    font-weight: bold;
+}
+
+.user {
+    color: black;
+}
+
+.input {
+    width: 276px;
+    height: 45px;
+    border-radius: 5px;
+    font: inherit;
+    border-right: 10px;
+    font: inherit;
+    padding-left: 5px;
+}
+
+.slot {
+    margin-left: 20px;
+    padding: 23px 0 14px;
+    
+}
+
+.vouch {
+    width: 261px;
+    height: 130px;
+    color: white;
+    background-color: #DE227D;
+    border-radius: 5px;
+    padding: 12px 0px 14px;
+    border-right: 10px;
+    font: inherit;
+    margin-top: 15px;
+    border: #F72585;
+}
+
+.entrada {
+    cursor: pointer;
+}
+
+.sing {
+    color: white;
+    display: flex;
+    margin-left: 10px;
+
+}
+
+.cadastro {
+    display: flex;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.icone {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}

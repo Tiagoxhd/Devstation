@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #292B61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel {
+    width: 840px;
+    height: 440px ;
+    background-color: #130F40;
+    border-radius: 8px;
+    display: flex;
+    
+}
+
+.divisao {
+    width: 420px;
+    height: 440px;
+}
+
+.texto {
+    padding-top: 35px;
+    color: #DE227D;
+    display: flex;
+    justify-content: center;
+}
+
+.slot {
+    width: 420px;
+    height: 380px;
+}
+
+.head {
+    width: 230px;
+    height: 75px;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+
+.input {
+    width: 276px;
+    height: 45px;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+
+.vouch {
+    width: 276px;
+    height: 45px;
+    background-color: #DE227D;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.button {
+    padding-left: 35px;
+    padding-top: 25px;
+}
+
+.entrada {
+    cursor: pointer;
+}
+
+.ret {
+    display: flex;
+    padding-top: 30px;
+}
+
+.exite {
+    color: white;
+    padding-left: 15px;
+}
+
+.img {
+    width: 340px;
+    height: 340px;
+    padding-top: 45px;
+}
+
+.imagem {
+    display: flex;
+}

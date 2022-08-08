@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     width: 100vw;
-    height: 100vh;
     background-color: #130F40;
     display: flex;
     justify-content: flex-start;
@@ -24,8 +24,8 @@
 
 .central {
     width: 35vw;
-    height: 110vh;
-    margin-left: 80px;
+    height: 100vh;
+    margin-left: 145px;
     color: white;
     display: flex;
     justify-content: center;
@@ -36,6 +36,7 @@
 .control {
     width: 100%;
     display: flex;
+    margin-left: 45px;
 }
 
 .dscr {
@@ -47,25 +48,31 @@
 .ref {
     color: white;
     margin-top: 35px;
+    margin-right: 40px;
 }
 
 .cont {
-    margin-left: 25px;
     margin-top: 25px;
-    
+    height: 173px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+    font-weight: bold;
+    font-family: Roboto;
 }
 
 .butao {
     width: 24vw;
     height: 8vh;
     color: white;
-    margin-top: 25px;
+    margin-top: 45px;
     background-color: #F72585;
     border-radius: 8px;
     border: #F72585;
     cursor: pointer;
-    
 }
+
 
 .fotos {
     width: 30%; 
@@ -94,4 +101,10 @@
     flex-direction: column;
     margin-top: 45px;
     margin-right: 55px;
+}
+
+.icone {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
